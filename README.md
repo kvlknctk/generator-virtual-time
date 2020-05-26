@@ -45,11 +45,11 @@ yarn add generator-virtual-time
 ### Json Export Example
 ```json
 {
-    start: "2020-05-20T10:00:00+03:00" // moment.DATETIME_LOCAL_MS
-    end: "2020-05-20T10:45:00+03:00" // moment.DATETIME_LOCAL_MS
-    hourlyType: "10:00"
-    numericType: "600" // this is minutes of day
-    title: "Seans" // custom title
+    "start": "2020-05-20T10:00:00+03:00",
+    "end": "2020-05-20T10:45:00+03:00",
+    "hourlyType": "10:00",
+    "numericType": "600", // this is minutes of day
+    "title": "Seans", // custom title
 },
 ...
 {
