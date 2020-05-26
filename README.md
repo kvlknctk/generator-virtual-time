@@ -29,15 +29,14 @@ yarn add generator-virtual-time
 {
    const moment = require('moment');
    ...
-  let config = {
-    startDate    : '2020-05-20',
-    endDate      : '2022-05-31',
-    title        : 'Seans',
-    startBlocked : [0, 599],
-    middleBlocked: [661, 720],
-    endBlocked   : [1200, 1440],
-  };
-  const days = timeGenarator(config);
+ const days = dayGenerator({
+			startDate    : '2020-05-20',
+			endDate      : '2022-05-31',
+			title        : 'Seans',
+			startBlocked : [0, 599],
+			middleBlocked: [661, 720],
+			endBlocked   : [1200, 1440]
+		});
 }
 ```
 
