@@ -27,7 +27,7 @@ yarn add generator-virtual-time
 ### Simple Usign
 ```javascript
 {
-   const moment = require('moment');
+   import dayGenerator from 'generator-virtual-time';
    ...
  const days = dayGenerator({
 			startDate    : '2020-05-20',
