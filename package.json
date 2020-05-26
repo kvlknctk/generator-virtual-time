@@ -1,6 +1,6 @@
 {
   "name": "generator-virtual-time",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "Time slots generator for calendars.",
   "main": "index.js",
   "scripts": {
