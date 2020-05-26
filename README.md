@@ -48,16 +48,16 @@ yarn add generator-virtual-time
     "start": "2020-05-20T10:00:00+03:00",
     "end": "2020-05-20T10:45:00+03:00",
     "hourlyType": "10:00",
-    "numericType": "600", // this is minutes of day
-    "title": "Seans", // custom title
+    "numericType": "600",
+    "title": "Seans"
 },
 ...
 {
-    start: "2020-05-20T11:00:00+03:00" // moment.DATETIME_LOCAL_MS
-    end: "2020-05-20T11:45:00+03:00" // moment.DATETIME_LOCAL_MS
-    hourlyType: "11:00"
-    numericType: "660" // this is minutes of day
-    title: "Seans" // custom title
+    "start": "2020-05-20T11:00:00+03:00",
+    "end": "2020-05-20T11:45:00+03:00",
+    "hourlyType": "11:00",
+    "numericType": "660",
+    "title": "Seans"
 }
 ```
 
