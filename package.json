@@ -1,0 +1,27 @@
+{
+  "name": "generator-virtual-time",
+  "version": "1.0.0",
+  "description": "Time slots generator for calendars.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kvlknctk/generator-virtual-time.git"
+  },
+  "keywords": [
+    "calender",
+    "generator",
+    "time",
+    "slots",
+    "time",
+    "generator"
+  ],
+  "author": "kvlknctk",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/kvlknctk/generator-virtual-time/issues"
+  },
+  "homepage": "https://github.com/kvlknctk/generator-virtual-time#readme"
+}
